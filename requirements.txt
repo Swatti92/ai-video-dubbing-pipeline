@@ -1,0 +1,7 @@
+whisperx
+gtts
+pydub
+deep-translator
+torch
+torchaudio
+ffmpeg-python
