@@ -19,4 +19,17 @@ current_video.txt
 *.mp3
 *.wav
 
-**pycache**/
+__pycache__/
+
+video1_work/output_videos/
+video2_work/output_videos/
+video3_work/output_videos/
+
+video1_work/*.mp4
+video1_work/*.webm
+
+video2_work/*.mp4
+video2_work/*.webm
+
+video3_work/*.mp4
+video3_work/*.webm
