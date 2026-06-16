@@ -43,22 +43,25 @@ The pipeline performs:
 * One-command execution
 
 ## Testing and Results
-
-The pipeline was tested on 3 different English-language videos.
+The pipeline was tested on 6 different English-language videos.
 
 For each video:
 
-* Audio was extracted automatically
-* Speech was transcribed using WhisperX
-* Content was translated into 8 Indian languages
-* TTS audio was generated
-* Dubbed videos were created with synchronized audio
+Audio extraction
+Speech-to-text transcription using WhisperX
+Translation into 8 Indian languages
+Text-to-speech generation
+Audio-video synchronization
+Dubbed video generation
 
-### Output Generated
+## Output Generated
+6 Input Videos
+8 Languages per Video
+48 Dubbed Videos Generated
 
-* 3 Input Videos
-* 8 Languages per Video
-* 24 Dubbed Videos Generated
+The system successfully produced synchronized multilingual dubbed videos in:
+
+Hindi, Telugu, Tamil, Bengali, Marathi, Gujarati, Kannada, and Malayalam.
 
 ## Usage
 
@@ -66,9 +69,6 @@ Run:
 
 python run_pipeline.py
 
-or
-
-python run_all.py
 
 ## Author
 
